@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+print("hi")
+
 def pytest_itemcollected(item):
     par = item.parent.obj
     node = item.obj
